@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hennessy Motors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Hennessy Motors Logo">
+            </div>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Our Cars</a></li>
+                <li><a href="#news">News & Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Hennessy Motors</h1>
+        <p>Your trusted car dealership for high-quality vehicles</p>
+        <button><a href="#products">Browse Our Cars</a></button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Hennessy Motors, we offer a wide selection of new and used vehicles at competitive prices. We pride ourselves on customer satisfaction and have been serving the community for over 20 years.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Cars</h2>
+        <div class="car-list">
+            <!-- Example Car Listing -->
+            <div class="car">
+                <img src="car1.jpg" alt="Car 1">
+                <h3>Car Model A</h3>
+                <p>Price: $25,000</p>
+                <button>Learn More</button>
+            </div>
+            <!-- Add more car listings here -->
+        </div>
+    </section>
+
+    <section id="news">
+        <h2>News & Events</h2>
+        <p>Stay up-to-date with the latest news and upcoming events at Hennessy Motors!</p>
+        <div class="event">
+            <h3>Big Annual Sale</h3>
+            <p>Join us for our biggest sale event of the year!</p>
+        </div>
+        <!-- Add more events here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hennessy Motors | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
